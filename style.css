@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+    color: #F0F8FF;
+    font-family: 'Baskervville SC', serif;
+}
+
+.heading {
+    font-family: "Press Start 2P","cursive";
+    color:#FFD700;
+}
+
+.context,
+.lives {
+    font-family: "Goblin One","cursive";
+    font-size: 20px;
+    color: aqua;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(145deg, #444444, #666666);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 600px;
+    padding:20px;
+}
+
+.start {
+    font-size: 35px;
+    color:#7FFF00;
+}
+
+.buttons {
+    margin-top: 70px;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+.previous {
+    margin-top: 200px;
+    font-size: 24px;
+    color:#FF6347;
+
+}
+
+.remaining {
+    margin-top: 30px;
+    font-size: 24px;
+    color:#FF4500;
+}
+
+.start,
+.previous,
+.remaining {
+    font-family: "Baskervville SC";
+}
+.guesses{
+    font-family: 'Times New Roman', Times, serif;
+    color:#ADFF2F;
+}
